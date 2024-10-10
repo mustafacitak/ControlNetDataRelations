@@ -1,0 +1,1744 @@
+{
+  "@context": [
+    "http://api.conceptnet.io/ld/conceptnet5.7/context.ld.json"
+  ],
+  "@id": "/c/en/desk",
+  "edges": [
+    {
+      "@id": "/a/[/r/AtLocation/,/c/en/stapler/,/c/en/desk/]",
+      "@type": "Edge",
+      "dataset": "/d/conceptnet/4/en",
+      "end": {
+        "@id": "/c/en/desk",
+        "@type": "Node",
+        "label": "a desk",
+        "language": "en",
+        "term": "/c/en/desk"
+      },
+      "license": "cc:by/4.0",
+      "rel": {
+        "@id": "/r/AtLocation",
+        "@type": "Relation",
+        "label": "AtLocation"
+      },
+      "sources": [
+        {
+          "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/alexi/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/omcs1_possibly_free_text",
+          "contributor": "/s/contributor/omcs/alexi"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/cfronte/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/omcs1_possibly_free_text",
+          "contributor": "/s/contributor/omcs/cfronte"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/chrismoore/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/omcs1_possibly_free_text",
+          "contributor": "/s/contributor/omcs/chrismoore"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/july/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/omcs1_possibly_free_text",
+          "contributor": "/s/contributor/omcs/july"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/lmklein2000/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/omcs1_possibly_free_text",
+          "contributor": "/s/contributor/omcs/lmklein2000"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/novalyte/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/omcs1_possibly_free_text",
+          "contributor": "/s/contributor/omcs/novalyte"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/shadfurman/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/omcs1_possibly_free_text",
+          "contributor": "/s/contributor/omcs/shadfurman"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/ugmonster/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/omcs1_possibly_free_text",
+          "contributor": "/s/contributor/omcs/ugmonster"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/dbn3/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/template",
+          "contributor": "/s/contributor/omcs/dbn3"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/alexi/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/alexi"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/arnobi/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/arnobi"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/browni/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/browni"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/cfronte/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/cfronte"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/dbn3/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/dbn3"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/dragonjools/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/dragonjools"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/eturner/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/eturner"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/guru1/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/guru1"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/jayant/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/jayant"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/july/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/july"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/kiosk/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/kiosk"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/lmklein2000/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/lmklein2000"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/markp/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/markp"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/migueleugim/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/migueleugim"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/novalyte/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/novalyte"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/polymatrix/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/polymatrix"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/shadfurman/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/shadfurman"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/ugmonster/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/ugmonster"
+        }
+      ],
+      "start": {
+        "@id": "/c/en/stapler",
+        "@type": "Node",
+        "label": "a stapler",
+        "language": "en",
+        "term": "/c/en/stapler"
+      },
+      "surfaceText": "You are likely to find [[a stapler]] in [[a desk]]",
+      "weight": 10.583005244258363
+    },
+    {
+      "@id": "/a/[/r/AtLocation/,/c/en/paper_clips/,/c/en/desk/]",
+      "@type": "Edge",
+      "dataset": "/d/conceptnet/4/en",
+      "end": {
+        "@id": "/c/en/desk",
+        "@type": "Node",
+        "label": "the desk",
+        "language": "en",
+        "term": "/c/en/desk"
+      },
+      "license": "cc:by/4.0",
+      "rel": {
+        "@id": "/r/AtLocation",
+        "@type": "Relation",
+        "label": "AtLocation"
+      },
+      "sources": [
+        {
+          "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/astronut/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/omcs1_possibly_free_text",
+          "contributor": "/s/contributor/omcs/astronut"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bedume/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/omcs1_possibly_free_text",
+          "contributor": "/s/contributor/omcs/bedume"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/annedog/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/annedog"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/astronut/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/astronut"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/browni/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/browni"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/elisabeth78/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/elisabeth78"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/kurt_woloch/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/kurt_woloch"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/logicexecution/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/logicexecution"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/markp/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/markp"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/mike_5335/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/mike_5335"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/mycorner/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/mycorner"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/polymatrix/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/polymatrix"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/samslippy/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/samslippy"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/wintermute/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/wintermute"
+        }
+      ],
+      "start": {
+        "@id": "/c/en/paper_clips",
+        "@type": "Node",
+        "label": "paper clips",
+        "language": "en",
+        "term": "/c/en/paper_clips"
+      },
+      "surfaceText": "*Something you find in [[the desk]] is [[paper clips]]",
+      "weight": 9.38083151964686
+    },
+    {
+      "@id": "/a/[/r/AtLocation/,/c/en/telephone/,/c/en/desk/]",
+      "@type": "Edge",
+      "dataset": "/d/conceptnet/4/en",
+      "end": {
+        "@id": "/c/en/desk",
+        "@type": "Node",
+        "label": "your desk",
+        "language": "en",
+        "term": "/c/en/desk"
+      },
+      "license": "cc:by/4.0",
+      "rel": {
+        "@id": "/r/AtLocation",
+        "@type": "Relation",
+        "label": "AtLocation"
+      },
+      "sources": [
+        {
+          "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/cfronte/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/omcs1_possibly_free_text",
+          "contributor": "/s/contributor/omcs/cfronte"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dumbunny/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/omcs1_possibly_free_text",
+          "contributor": "/s/contributor/omcs/dumbunny"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/eagleon/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/omcs1_possibly_free_text",
+          "contributor": "/s/contributor/omcs/eagleon"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/eoliveri/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/omcs1_possibly_free_text",
+          "contributor": "/s/contributor/omcs/eoliveri"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/martins/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/omcs1_possibly_free_text",
+          "contributor": "/s/contributor/omcs/martins"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/wergel/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/omcs1_possibly_free_text",
+          "contributor": "/s/contributor/omcs/wergel"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/alexi/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/alexi"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/bjb/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/bjb"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/browni/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/browni"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/cfronte/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/cfronte"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/chuddy/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/chuddy"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/craleb/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/craleb"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/eagleon/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/eagleon"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/eoliveri/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/eoliveri"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/fuzzysparkledoodle/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/fuzzysparkledoodle"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/kurt_woloch/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/kurt_woloch"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/markp/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/markp"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/martins/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/martins"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/polymatrix/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/polymatrix"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/wergel/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/wergel"
+        }
+      ],
+      "start": {
+        "@id": "/c/en/telephone",
+        "@type": "Node",
+        "label": "telephone",
+        "language": "en",
+        "term": "/c/en/telephone"
+      },
+      "surfaceText": "*Something you find on [[your desk]] is [[telephone]]",
+      "weight": 9.38083151964686
+    },
+    {
+      "@id": "/a/[/r/AtLocation/,/c/en/books/,/c/en/desk/]",
+      "@type": "Edge",
+      "dataset": "/d/conceptnet/4/en",
+      "end": {
+        "@id": "/c/en/desk",
+        "@type": "Node",
+        "label": "a desk",
+        "language": "en",
+        "term": "/c/en/desk"
+      },
+      "license": "cc:by/4.0",
+      "rel": {
+        "@id": "/r/AtLocation",
+        "@type": "Relation",
+        "label": "AtLocation"
+      },
+      "sources": [
+        {
+          "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bedume/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/omcs1_possibly_free_text",
+          "contributor": "/s/contributor/omcs/bedume"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/borris/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/omcs1_possibly_free_text",
+          "contributor": "/s/contributor/omcs/borris"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/w0254936/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/omcs1_possibly_free_text",
+          "contributor": "/s/contributor/omcs/w0254936"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/20q_215268797/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/20q_215268797"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/browni/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/browni"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/guru1/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/guru1"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/havasi/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/havasi"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/lsuvas/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/lsuvas"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/markp/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/markp"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/migueleugim/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/migueleugim"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/ochuckles/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/ochuckles"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/polymatrix/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/polymatrix"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/sargon/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/sargon"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/sporkiness/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/sporkiness"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/trevorm/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/trevorm"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/ullberg/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/ullberg"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/w0254936/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/w0254936"
+        }
+      ],
+      "start": {
+        "@id": "/c/en/books",
+        "@type": "Node",
+        "label": "books",
+        "language": "en",
+        "term": "/c/en/books"
+      },
+      "surfaceText": "*Something you find on [[a desk]] is [[books]]",
+      "weight": 8.0
+    },
+    {
+      "@id": "/a/[/r/RelatedTo/,/c/en/desk/,/c/en/table/]",
+      "@type": "Edge",
+      "dataset": "/d/verbosity",
+      "end": {
+        "@id": "/c/en/table",
+        "@type": "Node",
+        "label": "table",
+        "language": "en",
+        "term": "/c/en/table"
+      },
+      "license": "cc:by/4.0",
+      "rel": {
+        "@id": "/r/RelatedTo",
+        "@type": "Relation",
+        "label": "RelatedTo"
+      },
+      "sources": [
+        {
+          "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]",
+          "@type": "Source",
+          "contributor": "/s/resource/verbosity",
+          "process": "/s/process/split_words"
+        },
+        {
+          "@id": "/s/resource/verbosity",
+          "@type": "Source",
+          "contributor": "/s/resource/verbosity"
+        }
+      ],
+      "start": {
+        "@id": "/c/en/desk",
+        "@type": "Node",
+        "label": "desk",
+        "language": "en",
+        "term": "/c/en/desk"
+      },
+      "surfaceText": "[[desk]] is related to [[table]]",
+      "weight": 7.900379737708814
+    },
+    {
+      "@id": "/a/[/r/AtLocation/,/c/en/phone/,/c/en/desk/]",
+      "@type": "Edge",
+      "dataset": "/d/conceptnet/4/en",
+      "end": {
+        "@id": "/c/en/desk",
+        "@type": "Node",
+        "label": "a desk",
+        "language": "en",
+        "term": "/c/en/desk"
+      },
+      "license": "cc:by/4.0",
+      "rel": {
+        "@id": "/r/AtLocation",
+        "@type": "Relation",
+        "label": "AtLocation"
+      },
+      "sources": [
+        {
+          "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/omcs1_possibly_free_text",
+          "contributor": "/s/contributor/omcs/annedog"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/gryftir/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/omcs1_possibly_free_text",
+          "contributor": "/s/contributor/omcs/gryftir"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/mpatitz/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/omcs1_possibly_free_text",
+          "contributor": "/s/contributor/omcs/mpatitz"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/sekondairy/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/omcs1_possibly_free_text",
+          "contributor": "/s/contributor/omcs/sekondairy"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/tbrdboy/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/omcs1_possibly_free_text",
+          "contributor": "/s/contributor/omcs/tbrdboy"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/carmenvw/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/template",
+          "contributor": "/s/contributor/omcs/carmenvw"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/annedog/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/annedog"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/browni/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/browni"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/carmenvw/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/carmenvw"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/dhruvm/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/dhruvm"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/gryftir/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/gryftir"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/helge/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/helge"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/markp/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/markp"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/mpatitz/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/mpatitz"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/tbrdboy/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/tbrdboy"
+        }
+      ],
+      "start": {
+        "@id": "/c/en/phone",
+        "@type": "Node",
+        "label": "your phone",
+        "language": "en",
+        "term": "/c/en/phone"
+      },
+      "surfaceText": "*Something you find at [[a desk]] is [[your phone]]",
+      "weight": 7.483314773547882
+    },
+    {
+      "@id": "/a/[/r/AtLocation/,/c/en/post_notes/,/c/en/desk/]",
+      "@type": "Edge",
+      "dataset": "/d/conceptnet/4/en",
+      "end": {
+        "@id": "/c/en/desk",
+        "@type": "Node",
+        "label": "a desk",
+        "language": "en",
+        "term": "/c/en/desk"
+      },
+      "license": "cc:by/4.0",
+      "rel": {
+        "@id": "/r/AtLocation",
+        "@type": "Relation",
+        "label": "AtLocation"
+      },
+      "sources": [
+        {
+          "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bedume/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/omcs1_possibly_free_text",
+          "contributor": "/s/contributor/omcs/bedume"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bjb/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/omcs1_possibly_free_text",
+          "contributor": "/s/contributor/omcs/bjb"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/walterbauer3/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/omcs1_possibly_free_text",
+          "contributor": "/s/contributor/omcs/walterbauer3"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/guru1/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/template",
+          "contributor": "/s/contributor/omcs/guru1"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/browni/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/browni"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/ezrakilty/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/ezrakilty"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/guru1/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/guru1"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/kurt_woloch/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/kurt_woloch"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/markp/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/markp"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/robennals/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/robennals"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/swordfishdata/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/swordfishdata"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/walterbauer3/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/walterbauer3"
+        }
+      ],
+      "start": {
+        "@id": "/c/en/post_notes",
+        "@type": "Node",
+        "label": "post it notes",
+        "language": "en",
+        "term": "/c/en/post_notes"
+      },
+      "surfaceText": "*Something you find at [[a desk]] is [[post it notes]]",
+      "weight": 6.928203230275509
+    },
+    {
+      "@id": "/a/[/r/AtLocation/,/c/en/chair/,/c/en/desk/]",
+      "@type": "Edge",
+      "dataset": "/d/conceptnet/4/en",
+      "end": {
+        "@id": "/c/en/desk",
+        "@type": "Node",
+        "label": "a desk",
+        "language": "en",
+        "term": "/c/en/desk"
+      },
+      "license": "cc:by/4.0",
+      "rel": {
+        "@id": "/r/AtLocation",
+        "@type": "Relation",
+        "label": "AtLocation"
+      },
+      "sources": [
+        {
+          "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bmurdoch/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/omcs1_possibly_free_text",
+          "contributor": "/s/contributor/omcs/bmurdoch"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/coordinator/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/omcs1_possibly_free_text",
+          "contributor": "/s/contributor/omcs/coordinator"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/wolfie/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/omcs1_possibly_free_text",
+          "contributor": "/s/contributor/omcs/wolfie"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/browni/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/browni"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/coordinator/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/coordinator"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/jasongross/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/jasongross"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/kurros/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/kurros"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/kwitzel/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/kwitzel"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/markp/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/markp"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/roger/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/roger"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/swordfishdata/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/swordfishdata"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/wolfie/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/wolfie"
+        }
+      ],
+      "start": {
+        "@id": "/c/en/chair",
+        "@type": "Node",
+        "label": "a chair",
+        "language": "en",
+        "term": "/c/en/chair"
+      },
+      "surfaceText": "*Something you find at [[a desk]] is [[a chair]]",
+      "weight": 6.6332495807108
+    },
+    {
+      "@id": "/a/[/r/RelatedTo/,/c/en/desk/,/c/en/office/]",
+      "@type": "Edge",
+      "dataset": "/d/verbosity",
+      "end": {
+        "@id": "/c/en/office",
+        "@type": "Node",
+        "label": "office",
+        "language": "en",
+        "term": "/c/en/office"
+      },
+      "license": "cc:by/4.0",
+      "rel": {
+        "@id": "/r/RelatedTo",
+        "@type": "Relation",
+        "label": "RelatedTo"
+      },
+      "sources": [
+        {
+          "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]",
+          "@type": "Source",
+          "contributor": "/s/resource/verbosity",
+          "process": "/s/process/split_words"
+        },
+        {
+          "@id": "/s/resource/verbosity",
+          "@type": "Source",
+          "contributor": "/s/resource/verbosity"
+        }
+      ],
+      "start": {
+        "@id": "/c/en/desk",
+        "@type": "Node",
+        "label": "desk",
+        "language": "en",
+        "term": "/c/en/desk"
+      },
+      "surfaceText": "[[desk]] is related to [[office]]",
+      "weight": 6.521042861383446
+    },
+    {
+      "@id": "/a/[/r/AtLocation/,/c/en/coffee_cup/,/c/en/desk/]",
+      "@type": "Edge",
+      "dataset": "/d/conceptnet/4/en",
+      "end": {
+        "@id": "/c/en/desk",
+        "@type": "Node",
+        "label": "a desk",
+        "language": "en",
+        "term": "/c/en/desk"
+      },
+      "license": "cc:by/4.0",
+      "rel": {
+        "@id": "/r/AtLocation",
+        "@type": "Relation",
+        "label": "AtLocation"
+      },
+      "sources": [
+        {
+          "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bjb/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/omcs1_possibly_free_text",
+          "contributor": "/s/contributor/omcs/bjb"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/dbn3/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/template",
+          "contributor": "/s/contributor/omcs/dbn3"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/bjb/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/bjb"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/browni/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/browni"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/dbn3/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/dbn3"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/guru1/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/guru1"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/jbbdude/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/jbbdude"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/markp/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/markp"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/rspeer/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/rspeer"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/sandos/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/sandos"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/wtgee/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/wtgee"
+        }
+      ],
+      "start": {
+        "@id": "/c/en/coffee_cup",
+        "@type": "Node",
+        "label": "a coffee cup",
+        "language": "en",
+        "term": "/c/en/coffee_cup"
+      },
+      "surfaceText": "*Something you find on [[a desk]] is [[a coffee cup]]",
+      "weight": 6.32455532033676
+    },
+    {
+      "@id": "/a/[/r/RelatedTo/,/c/en/desk/,/c/en/furniture/]",
+      "@type": "Edge",
+      "dataset": "/d/verbosity",
+      "end": {
+        "@id": "/c/en/furniture",
+        "@type": "Node",
+        "label": "furniture",
+        "language": "en",
+        "term": "/c/en/furniture"
+      },
+      "license": "cc:by/4.0",
+      "rel": {
+        "@id": "/r/RelatedTo",
+        "@type": "Relation",
+        "label": "RelatedTo"
+      },
+      "sources": [
+        {
+          "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]",
+          "@type": "Source",
+          "contributor": "/s/resource/verbosity",
+          "process": "/s/process/split_words"
+        },
+        {
+          "@id": "/s/resource/verbosity",
+          "@type": "Source",
+          "contributor": "/s/resource/verbosity"
+        }
+      ],
+      "start": {
+        "@id": "/c/en/desk",
+        "@type": "Node",
+        "label": "desk",
+        "language": "en",
+        "term": "/c/en/desk"
+      },
+      "surfaceText": "[[desk]] is related to [[furniture]]",
+      "weight": 6.226074204504794
+    },
+    {
+      "@id": "/a/[/r/AtLocation/,/c/en/pencil_sharpener/,/c/en/desk/]",
+      "@type": "Edge",
+      "dataset": "/d/conceptnet/4/en",
+      "end": {
+        "@id": "/c/en/desk",
+        "@type": "Node",
+        "label": "a desk",
+        "language": "en",
+        "term": "/c/en/desk"
+      },
+      "license": "cc:by/4.0",
+      "rel": {
+        "@id": "/r/AtLocation",
+        "@type": "Relation",
+        "label": "AtLocation"
+      },
+      "sources": [
+        {
+          "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dexy/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/omcs1_possibly_free_text",
+          "contributor": "/s/contributor/omcs/dexy"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/inusan/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/omcs1_possibly_free_text",
+          "contributor": "/s/contributor/omcs/inusan"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/tenfiveoh/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/omcs1_possibly_free_text",
+          "contributor": "/s/contributor/omcs/tenfiveoh"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/guru1/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/template",
+          "contributor": "/s/contributor/omcs/guru1"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/dexy/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/dexy"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/guru1/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/guru1"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/inusan/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/inusan"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/linguistica/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/linguistica"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/moncho1957/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/moncho1957"
+        }
+      ],
+      "start": {
+        "@id": "/c/en/pencil_sharpener",
+        "@type": "Node",
+        "label": "a pencil sharpener",
+        "language": "en",
+        "term": "/c/en/pencil_sharpener"
+      },
+      "surfaceText": "*Something you find at [[a desk]] is [[a pencil sharpener]]",
+      "weight": 6.0
+    },
+    {
+      "@id": "/a/[/r/AtLocation/,/c/en/drawers/,/c/en/desk/]",
+      "@type": "Edge",
+      "dataset": "/d/conceptnet/4/en",
+      "end": {
+        "@id": "/c/en/desk",
+        "@type": "Node",
+        "label": "a desk",
+        "language": "en",
+        "term": "/c/en/desk"
+      },
+      "license": "cc:by/4.0",
+      "rel": {
+        "@id": "/r/AtLocation",
+        "@type": "Relation",
+        "label": "AtLocation"
+      },
+      "sources": [
+        {
+          "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/speechguy/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/omcs1_possibly_free_text",
+          "contributor": "/s/contributor/omcs/speechguy"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/browni/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/browni"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/demosthenes2k8/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/demosthenes2k8"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/guru1/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/guru1"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/jaelanicu/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/jaelanicu"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/jasongross/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/jasongross"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/jledous/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/jledous"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/polymatrix/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/polymatrix"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/smtango/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/smtango"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/swordfishdata/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/swordfishdata"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/tomwright/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/tomwright"
+        }
+      ],
+      "start": {
+        "@id": "/c/en/drawers",
+        "@type": "Node",
+        "label": "drawers",
+        "language": "en",
+        "term": "/c/en/drawers"
+      },
+      "surfaceText": "*Something you find under [[a desk]] is [[drawers]]",
+      "weight": 5.656854249492381
+    },
+    {
+      "@id": "/a/[/r/AtLocation/,/c/en/notebook/,/c/en/desk/]",
+      "@type": "Edge",
+      "dataset": "/d/conceptnet/4/en",
+      "end": {
+        "@id": "/c/en/desk",
+        "@type": "Node",
+        "label": "a desk",
+        "language": "en",
+        "term": "/c/en/desk"
+      },
+      "license": "cc:by/4.0",
+      "rel": {
+        "@id": "/r/AtLocation",
+        "@type": "Relation",
+        "label": "AtLocation"
+      },
+      "sources": [
+        {
+          "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/allens/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/omcs1_possibly_free_text",
+          "contributor": "/s/contributor/omcs/allens"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dgaspary/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/omcs1_possibly_free_text",
+          "contributor": "/s/contributor/omcs/dgaspary"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/nancyfay/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/omcs1_possibly_free_text",
+          "contributor": "/s/contributor/omcs/nancyfay"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/steveh/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/omcs1_possibly_free_text",
+          "contributor": "/s/contributor/omcs/steveh"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/allens/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/allens"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/markp/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/markp"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/nancyfay/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/nancyfay"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/steveh/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/steveh"
+        }
+      ],
+      "start": {
+        "@id": "/c/en/notebook",
+        "@type": "Node",
+        "label": "a notebook",
+        "language": "en",
+        "term": "/c/en/notebook"
+      },
+      "surfaceText": "You are likely to find [[a notebook]] in [[a desk]]",
+      "weight": 5.291502622129181
+    },
+    {
+      "@id": "/a/[/r/AtLocation/,/c/en/notepad/,/c/en/desk/]",
+      "@type": "Edge",
+      "dataset": "/d/conceptnet/4/en",
+      "end": {
+        "@id": "/c/en/desk",
+        "@type": "Node",
+        "label": "your desk",
+        "language": "en",
+        "term": "/c/en/desk"
+      },
+      "license": "cc:by/4.0",
+      "rel": {
+        "@id": "/r/AtLocation",
+        "@type": "Relation",
+        "label": "AtLocation"
+      },
+      "sources": [
+        {
+          "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bedume/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/omcs1_possibly_free_text",
+          "contributor": "/s/contributor/omcs/bedume"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/erikglenn/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/omcs1_possibly_free_text",
+          "contributor": "/s/contributor/omcs/erikglenn"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/gatohaus/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/omcs1_possibly_free_text",
+          "contributor": "/s/contributor/omcs/gatohaus"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/sammor/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/omcs1_possibly_free_text",
+          "contributor": "/s/contributor/omcs/sammor"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/bjb/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/bjb"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/gatohaus/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/gatohaus"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/sammor/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/sammor"
+        }
+      ],
+      "start": {
+        "@id": "/c/en/notepad",
+        "@type": "Node",
+        "label": "a notepad",
+        "language": "en",
+        "term": "/c/en/notepad"
+      },
+      "surfaceText": "*Something you find on [[your desk]] is [[a notepad]]",
+      "weight": 5.291502622129181
+    },
+    {
+      "@id": "/a/[/r/AtLocation/,/c/en/feet/,/c/en/desk/]",
+      "@type": "Edge",
+      "dataset": "/d/conceptnet/4/en",
+      "end": {
+        "@id": "/c/en/desk",
+        "@type": "Node",
+        "label": "a desk",
+        "language": "en",
+        "term": "/c/en/desk"
+      },
+      "license": "cc:by/4.0",
+      "rel": {
+        "@id": "/r/AtLocation",
+        "@type": "Relation",
+        "label": "AtLocation"
+      },
+      "sources": [
+        {
+          "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/omcs1_possibly_free_text",
+          "contributor": "/s/contributor/omcs/annedog"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/browni/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/browni"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/helge/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/helge"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/janet/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/janet"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/trevorm/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/trevorm"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/zenkatz/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/zenkatz"
+        }
+      ],
+      "start": {
+        "@id": "/c/en/feet",
+        "@type": "Node",
+        "label": "feet",
+        "language": "en",
+        "term": "/c/en/feet"
+      },
+      "surfaceText": "*Something you find under [[a desk]] is [[feet]]",
+      "weight": 5.291502622129181
+    },
+    {
+      "@id": "/a/[/r/RelatedTo/,/c/en/desk/,/c/en/writing/]",
+      "@type": "Edge",
+      "dataset": "/d/verbosity",
+      "end": {
+        "@id": "/c/en/writing",
+        "@type": "Node",
+        "label": "writing",
+        "language": "en",
+        "term": "/c/en/writing"
+      },
+      "license": "cc:by/4.0",
+      "rel": {
+        "@id": "/r/RelatedTo",
+        "@type": "Relation",
+        "label": "RelatedTo"
+      },
+      "sources": [
+        {
+          "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]",
+          "@type": "Source",
+          "contributor": "/s/resource/verbosity",
+          "process": "/s/process/split_words"
+        },
+        {
+          "@id": "/s/resource/verbosity",
+          "@type": "Source",
+          "contributor": "/s/resource/verbosity"
+        }
+      ],
+      "start": {
+        "@id": "/c/en/desk",
+        "@type": "Node",
+        "label": "desk",
+        "language": "en",
+        "term": "/c/en/desk"
+      },
+      "surfaceText": "[[desk]] is related to [[writing]]",
+      "weight": 5.263458938758808
+    },
+    {
+      "@id": "/a/[/r/RelatedTo/,/c/en/desk/,/c/en/work/]",
+      "@type": "Edge",
+      "dataset": "/d/verbosity",
+      "end": {
+        "@id": "/c/en/work",
+        "@type": "Node",
+        "label": "work",
+        "language": "en",
+        "term": "/c/en/work"
+      },
+      "license": "cc:by/4.0",
+      "rel": {
+        "@id": "/r/RelatedTo",
+        "@type": "Relation",
+        "label": "RelatedTo"
+      },
+      "sources": [
+        {
+          "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]",
+          "@type": "Source",
+          "contributor": "/s/resource/verbosity",
+          "process": "/s/process/split_words"
+        },
+        {
+          "@id": "/s/resource/verbosity",
+          "@type": "Source",
+          "contributor": "/s/resource/verbosity"
+        }
+      ],
+      "start": {
+        "@id": "/c/en/desk",
+        "@type": "Node",
+        "label": "desk",
+        "language": "en",
+        "term": "/c/en/desk"
+      },
+      "surfaceText": "[[desk]] is related to [[work]]",
+      "weight": 5.197691795403033
+    },
+    {
+      "@id": "/a/[/r/AtLocation/,/c/en/floor/,/c/en/desk/]",
+      "@type": "Edge",
+      "dataset": "/d/conceptnet/4/en",
+      "end": {
+        "@id": "/c/en/desk",
+        "@type": "Node",
+        "label": "a desk",
+        "language": "en",
+        "term": "/c/en/desk"
+      },
+      "license": "cc:by/4.0",
+      "rel": {
+        "@id": "/r/AtLocation",
+        "@type": "Relation",
+        "label": "AtLocation"
+      },
+      "sources": [
+        {
+          "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/johngt/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/omcs1_possibly_free_text",
+          "contributor": "/s/contributor/omcs/johngt"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/roger/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/omcs1_possibly_free_text",
+          "contributor": "/s/contributor/omcs/roger"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/chuddy/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/chuddy"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/johngt/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/johngt"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/kurt_woloch/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/kurt_woloch"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/pixielady/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/pixielady"
+        }
+      ],
+      "start": {
+        "@id": "/c/en/floor",
+        "@type": "Node",
+        "label": "a floor",
+        "language": "en",
+        "term": "/c/en/floor"
+      },
+      "surfaceText": "*Something you find under [[a desk]] is [[a floor]]",
+      "weight": 4.898979485566356
+    },
+    {
+      "@id": "/a/[/r/AtLocation/,/c/en/blotter/,/c/en/desk/]",
+      "@type": "Edge",
+      "dataset": "/d/conceptnet/4/en",
+      "end": {
+        "@id": "/c/en/desk",
+        "@type": "Node",
+        "label": "a desk",
+        "language": "en",
+        "term": "/c/en/desk"
+      },
+      "license": "cc:by/4.0",
+      "rel": {
+        "@id": "/r/AtLocation",
+        "@type": "Relation",
+        "label": "AtLocation"
+      },
+      "sources": [
+        {
+          "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/cfronte/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/omcs1_possibly_free_text",
+          "contributor": "/s/contributor/omcs/cfronte"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/mgpatterson/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/omcs1_possibly_free_text",
+          "contributor": "/s/contributor/omcs/mgpatterson"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/tenfiveoh/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/omcs1_possibly_free_text",
+          "contributor": "/s/contributor/omcs/tenfiveoh"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/wergel/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/omcs1_possibly_free_text",
+          "contributor": "/s/contributor/omcs/wergel"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/cfronte/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/cfronte"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/mgpatterson/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/mgpatterson"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/wergel/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/wergel"
+        }
+      ],
+      "start": {
+        "@id": "/c/en/blotter",
+        "@type": "Node",
+        "label": "blotter",
+        "language": "en",
+        "term": "/c/en/blotter"
+      },
+      "surfaceText": "*Something you find on [[a desk]] is [[blotter]]",
+      "weight": 4.898979485566356
+    }
+  ],
+  "version": "5.8.1",
+  "view": {
+    "@id": "/c/en/desk?offset=0&limit=20",
+    "@type": "PartialCollectionView",
+    "comment": "There are more results. Follow the 'nextPage' link for more.",
+    "firstPage": "/c/en/desk?offset=0&limit=20",
+    "nextPage": "/c/en/desk?offset=20&limit=20",
+    "paginatedProperty": "edges"
+  }
+}

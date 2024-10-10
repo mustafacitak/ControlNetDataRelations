@@ -1,0 +1,1071 @@
+{
+  "@context": [
+    "http://api.conceptnet.io/ld/conceptnet5.7/context.ld.json"
+  ],
+  "@id": "/c/en/chair",
+  "edges": [
+    {
+      "@id": "/a/[/r/AtLocation/,/c/en/chair/,/c/en/office/]",
+      "@type": "Edge",
+      "dataset": "/d/conceptnet/4/en",
+      "end": {
+        "@id": "/c/en/office",
+        "@type": "Node",
+        "label": "the office",
+        "language": "en",
+        "term": "/c/en/office"
+      },
+      "license": "cc:by/4.0",
+      "rel": {
+        "@id": "/r/AtLocation",
+        "@type": "Relation",
+        "label": "AtLocation"
+      },
+      "sources": [
+        {
+          "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jfarnell/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/omcs1_possibly_free_text",
+          "contributor": "/s/contributor/omcs/jfarnell"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/junebug/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/omcs1_possibly_free_text",
+          "contributor": "/s/contributor/omcs/junebug"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/markfarrar/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/omcs1_possibly_free_text",
+          "contributor": "/s/contributor/omcs/markfarrar"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/whitten/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/template",
+          "contributor": "/s/contributor/omcs/whitten"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/ali33/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/ali33"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/ariadne/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/ariadne"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/barraq/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/barraq"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/browni/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/browni"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/chouck/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/chouck"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/hakan_olin/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/hakan_olin"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/jfarnell/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/jfarnell"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/junebug/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/junebug"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/kurros/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/kurros"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/markfarrar/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/markfarrar"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/mason11987/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/mason11987"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/motev/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/motev"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/nemerle/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/nemerle"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/swordfishdata/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/swordfishdata"
+        }
+      ],
+      "start": {
+        "@id": "/c/en/chair",
+        "@type": "Node",
+        "label": "a chair",
+        "language": "en",
+        "term": "/c/en/chair"
+      },
+      "surfaceText": "*Something you find at [[the office]] is [[a chair]]",
+      "weight": 8.48528137423857
+    },
+    {
+      "@id": "/a/[/r/RelatedTo/,/c/en/chair/,/c/en/sitting/]",
+      "@type": "Edge",
+      "dataset": "/d/verbosity",
+      "end": {
+        "@id": "/c/en/sitting",
+        "@type": "Node",
+        "label": "sitting",
+        "language": "en",
+        "term": "/c/en/sitting"
+      },
+      "license": "cc:by/4.0",
+      "rel": {
+        "@id": "/r/RelatedTo",
+        "@type": "Relation",
+        "label": "RelatedTo"
+      },
+      "sources": [
+        {
+          "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]",
+          "@type": "Source",
+          "contributor": "/s/resource/verbosity",
+          "process": "/s/process/split_words"
+        },
+        {
+          "@id": "/s/resource/verbosity",
+          "@type": "Source",
+          "contributor": "/s/resource/verbosity"
+        }
+      ],
+      "start": {
+        "@id": "/c/en/chair",
+        "@type": "Node",
+        "label": "chair",
+        "language": "en",
+        "term": "/c/en/chair"
+      },
+      "surfaceText": "[[chair]] is related to [[sitting]]",
+      "weight": 7.795126682742238
+    },
+    {
+      "@id": "/a/[/r/RelatedTo/,/c/en/seat/,/c/en/chair/]",
+      "@type": "Edge",
+      "dataset": "/d/verbosity",
+      "end": {
+        "@id": "/c/en/chair",
+        "@type": "Node",
+        "label": "chair",
+        "language": "en",
+        "term": "/c/en/chair"
+      },
+      "license": "cc:by/4.0",
+      "rel": {
+        "@id": "/r/RelatedTo",
+        "@type": "Relation",
+        "label": "RelatedTo"
+      },
+      "sources": [
+        {
+          "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]",
+          "@type": "Source",
+          "contributor": "/s/resource/verbosity",
+          "process": "/s/process/split_words"
+        },
+        {
+          "@id": "/s/resource/verbosity",
+          "@type": "Source",
+          "contributor": "/s/resource/verbosity"
+        }
+      ],
+      "start": {
+        "@id": "/c/en/seat",
+        "@type": "Node",
+        "label": "seat",
+        "language": "en",
+        "term": "/c/en/seat"
+      },
+      "surfaceText": "[[seat]] is related to [[chair]]",
+      "weight": 7.521701935067622
+    },
+    {
+      "@id": "/a/[/r/RelatedTo/,/c/en/chair/,/c/en/seat/]",
+      "@type": "Edge",
+      "dataset": "/d/verbosity",
+      "end": {
+        "@id": "/c/en/seat",
+        "@type": "Node",
+        "label": "seat",
+        "language": "en",
+        "term": "/c/en/seat"
+      },
+      "license": "cc:by/4.0",
+      "rel": {
+        "@id": "/r/RelatedTo",
+        "@type": "Relation",
+        "label": "RelatedTo"
+      },
+      "sources": [
+        {
+          "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]",
+          "@type": "Source",
+          "contributor": "/s/resource/verbosity",
+          "process": "/s/process/split_words"
+        },
+        {
+          "@id": "/s/resource/verbosity",
+          "@type": "Source",
+          "contributor": "/s/resource/verbosity"
+        }
+      ],
+      "start": {
+        "@id": "/c/en/chair",
+        "@type": "Node",
+        "label": "chair",
+        "language": "en",
+        "term": "/c/en/chair"
+      },
+      "surfaceText": "[[chair]] is related to [[seat]]",
+      "weight": 6.779380502671316
+    },
+    {
+      "@id": "/a/[/r/AtLocation/,/c/en/chair/,/c/en/desk/]",
+      "@type": "Edge",
+      "dataset": "/d/conceptnet/4/en",
+      "end": {
+        "@id": "/c/en/desk",
+        "@type": "Node",
+        "label": "a desk",
+        "language": "en",
+        "term": "/c/en/desk"
+      },
+      "license": "cc:by/4.0",
+      "rel": {
+        "@id": "/r/AtLocation",
+        "@type": "Relation",
+        "label": "AtLocation"
+      },
+      "sources": [
+        {
+          "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bmurdoch/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/omcs1_possibly_free_text",
+          "contributor": "/s/contributor/omcs/bmurdoch"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/coordinator/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/omcs1_possibly_free_text",
+          "contributor": "/s/contributor/omcs/coordinator"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/wolfie/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/omcs1_possibly_free_text",
+          "contributor": "/s/contributor/omcs/wolfie"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/browni/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/browni"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/coordinator/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/coordinator"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/jasongross/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/jasongross"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/kurros/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/kurros"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/kwitzel/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/kwitzel"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/markp/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/markp"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/roger/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/roger"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/swordfishdata/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/swordfishdata"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/wolfie/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/wolfie"
+        }
+      ],
+      "start": {
+        "@id": "/c/en/chair",
+        "@type": "Node",
+        "label": "a chair",
+        "language": "en",
+        "term": "/c/en/chair"
+      },
+      "surfaceText": "*Something you find at [[a desk]] is [[a chair]]",
+      "weight": 6.6332495807108
+    },
+    {
+      "@id": "/a/[/r/RelatedTo/,/c/en/chair/,/c/en/furniture/]",
+      "@type": "Edge",
+      "dataset": "/d/verbosity",
+      "end": {
+        "@id": "/c/en/furniture",
+        "@type": "Node",
+        "label": "furniture",
+        "language": "en",
+        "term": "/c/en/furniture"
+      },
+      "license": "cc:by/4.0",
+      "rel": {
+        "@id": "/r/RelatedTo",
+        "@type": "Relation",
+        "label": "RelatedTo"
+      },
+      "sources": [
+        {
+          "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]",
+          "@type": "Source",
+          "contributor": "/s/resource/verbosity",
+          "process": "/s/process/split_words"
+        },
+        {
+          "@id": "/s/resource/verbosity",
+          "@type": "Source",
+          "contributor": "/s/resource/verbosity"
+        }
+      ],
+      "start": {
+        "@id": "/c/en/chair",
+        "@type": "Node",
+        "label": "chair",
+        "language": "en",
+        "term": "/c/en/chair"
+      },
+      "surfaceText": "[[chair]] is related to [[furniture]]",
+      "weight": 6.460959681038105
+    },
+    {
+      "@id": "/a/[/r/RelatedTo/,/c/en/chair/,/c/en/sit/]",
+      "@type": "Edge",
+      "dataset": "/d/verbosity",
+      "end": {
+        "@id": "/c/en/sit",
+        "@type": "Node",
+        "label": "sit",
+        "language": "en",
+        "term": "/c/en/sit"
+      },
+      "license": "cc:by/4.0",
+      "rel": {
+        "@id": "/r/RelatedTo",
+        "@type": "Relation",
+        "label": "RelatedTo"
+      },
+      "sources": [
+        {
+          "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]",
+          "@type": "Source",
+          "contributor": "/s/resource/verbosity",
+          "process": "/s/process/split_words"
+        },
+        {
+          "@id": "/s/resource/verbosity",
+          "@type": "Source",
+          "contributor": "/s/resource/verbosity"
+        }
+      ],
+      "start": {
+        "@id": "/c/en/chair",
+        "@type": "Node",
+        "label": "chair",
+        "language": "en",
+        "term": "/c/en/chair"
+      },
+      "surfaceText": "[[chair]] is related to [[sit]]",
+      "weight": 5.279393904606853
+    },
+    {
+      "@id": "/a/[/r/AtLocation/,/c/en/cat/,/c/en/chair/]",
+      "@type": "Edge",
+      "dataset": "/d/conceptnet/4/en",
+      "end": {
+        "@id": "/c/en/chair",
+        "@type": "Node",
+        "label": "a chair",
+        "language": "en",
+        "term": "/c/en/chair"
+      },
+      "license": "cc:by/4.0",
+      "rel": {
+        "@id": "/r/AtLocation",
+        "@type": "Relation",
+        "label": "AtLocation"
+      },
+      "sources": [
+        {
+          "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/kacjf73/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/omcs1_possibly_free_text",
+          "contributor": "/s/contributor/omcs/kacjf73"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/zenkatz/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/omcs1_possibly_free_text",
+          "contributor": "/s/contributor/omcs/zenkatz"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/dragonjools/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/dragonjools"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/leighman/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/leighman"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/youhere/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/youhere"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/zenkatz/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/zenkatz"
+        }
+      ],
+      "start": {
+        "@id": "/c/en/cat",
+        "@type": "Node",
+        "label": "a cat",
+        "language": "en",
+        "term": "/c/en/cat"
+      },
+      "surfaceText": "You are likely to find [[a cat]] in [[a chair]]",
+      "weight": 4.47213595499958
+    },
+    {
+      "@id": "/a/[/r/RelatedTo/,/c/en/chair/,/c/en/table/]",
+      "@type": "Edge",
+      "dataset": "/d/verbosity",
+      "end": {
+        "@id": "/c/en/table",
+        "@type": "Node",
+        "label": "table",
+        "language": "en",
+        "term": "/c/en/table"
+      },
+      "license": "cc:by/4.0",
+      "rel": {
+        "@id": "/r/RelatedTo",
+        "@type": "Relation",
+        "label": "RelatedTo"
+      },
+      "sources": [
+        {
+          "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]",
+          "@type": "Source",
+          "contributor": "/s/resource/verbosity",
+          "process": "/s/process/split_words"
+        },
+        {
+          "@id": "/s/resource/verbosity",
+          "@type": "Source",
+          "contributor": "/s/resource/verbosity"
+        }
+      ],
+      "start": {
+        "@id": "/c/en/chair",
+        "@type": "Node",
+        "label": "chair",
+        "language": "en",
+        "term": "/c/en/chair"
+      },
+      "surfaceText": "[[chair]] is related to [[table]]",
+      "weight": 4.23461922727416
+    },
+    {
+      "@id": "/a/[/r/RelatedTo/,/c/en/chair/,/c/en/legs/]",
+      "@type": "Edge",
+      "dataset": "/d/verbosity",
+      "end": {
+        "@id": "/c/en/legs",
+        "@type": "Node",
+        "label": "legs",
+        "language": "en",
+        "term": "/c/en/legs"
+      },
+      "license": "cc:by/4.0",
+      "rel": {
+        "@id": "/r/RelatedTo",
+        "@type": "Relation",
+        "label": "RelatedTo"
+      },
+      "sources": [
+        {
+          "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]",
+          "@type": "Source",
+          "contributor": "/s/resource/verbosity",
+          "process": "/s/process/split_words"
+        },
+        {
+          "@id": "/s/resource/verbosity",
+          "@type": "Source",
+          "contributor": "/s/resource/verbosity"
+        }
+      ],
+      "start": {
+        "@id": "/c/en/chair",
+        "@type": "Node",
+        "label": "chair",
+        "language": "en",
+        "term": "/c/en/chair"
+      },
+      "surfaceText": "[[chair]] is related to [[legs]]",
+      "weight": 4.07578213352971
+    },
+    {
+      "@id": "/a/[/r/IsA/,/c/en/armchair/,/c/en/chair/]",
+      "@type": "Edge",
+      "dataset": "/d/conceptnet/4/en",
+      "end": {
+        "@id": "/c/en/chair",
+        "@type": "Node",
+        "label": "a chair",
+        "language": "en",
+        "term": "/c/en/chair"
+      },
+      "license": "cc:by/4.0",
+      "rel": {
+        "@id": "/r/IsA",
+        "@type": "Relation",
+        "label": "IsA"
+      },
+      "sources": [
+        {
+          "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/breu/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/omcs1_possibly_free_text",
+          "contributor": "/s/contributor/omcs/breu"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dev/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/omcs1_possibly_free_text",
+          "contributor": "/s/contributor/omcs/dev"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/breu/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/breu"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/swordfishdata/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/swordfishdata"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/v6stang/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/v6stang"
+        }
+      ],
+      "start": {
+        "@id": "/c/en/armchair",
+        "@type": "Node",
+        "label": "An armchair",
+        "language": "en",
+        "term": "/c/en/armchair"
+      },
+      "surfaceText": "[[An armchair]] is [[a chair]]",
+      "weight": 4.0
+    },
+    {
+      "@id": "/a/[/r/HasPrerequisite/,/c/en/sitting_on_chair/,/c/en/chair/]",
+      "@type": "Edge",
+      "dataset": "/d/conceptnet/4/en",
+      "end": {
+        "@id": "/c/en/chair",
+        "@type": "Node",
+        "label": "a chair",
+        "language": "en",
+        "term": "/c/en/chair"
+      },
+      "license": "cc:by/4.0",
+      "rel": {
+        "@id": "/r/HasPrerequisite",
+        "@type": "Relation",
+        "label": "HasPrerequisite"
+      },
+      "sources": [
+        {
+          "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bangarang/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/omcs1_possibly_free_text",
+          "contributor": "/s/contributor/omcs/bangarang"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/breitmaulfrosch/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/breitmaulfrosch"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/fmr/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/fmr"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/lsuvas/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/lsuvas"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/swordfishdata/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/swordfishdata"
+        }
+      ],
+      "start": {
+        "@id": "/c/en/sitting_on_chair",
+        "@type": "Node",
+        "label": "sitting on a chair",
+        "language": "en",
+        "term": "/c/en/sitting_on_chair"
+      },
+      "surfaceText": "[[sitting on a chair]] requires [[a chair]]",
+      "weight": 4.0
+    },
+    {
+      "@id": "/a/[/r/AtLocation/,/c/en/chair/,/c/en/cubicle/]",
+      "@type": "Edge",
+      "dataset": "/d/conceptnet/4/en",
+      "end": {
+        "@id": "/c/en/cubicle",
+        "@type": "Node",
+        "label": "a cubicle",
+        "language": "en",
+        "term": "/c/en/cubicle"
+      },
+      "license": "cc:by/4.0",
+      "rel": {
+        "@id": "/r/AtLocation",
+        "@type": "Relation",
+        "label": "AtLocation"
+      },
+      "sources": [
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/browni/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/browni"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/desalvionjr/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/desalvionjr"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/leighman/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/leighman"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/sandos/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/sandos"
+        }
+      ],
+      "start": {
+        "@id": "/c/en/chair",
+        "@type": "Node",
+        "label": "a chair",
+        "language": "en",
+        "term": "/c/en/chair"
+      },
+      "surfaceText": "You are likely to find [[a chair]] in [[a cubicle]]",
+      "weight": 3.4641016151377544
+    },
+    {
+      "@id": "/a/[/r/UsedFor/,/c/en/chair/,/c/en/resting/]",
+      "@type": "Edge",
+      "dataset": "/d/conceptnet/4/en",
+      "end": {
+        "@id": "/c/en/resting",
+        "@type": "Node",
+        "label": "resting",
+        "language": "en",
+        "term": "/c/en/resting"
+      },
+      "license": "cc:by/4.0",
+      "rel": {
+        "@id": "/r/UsedFor",
+        "@type": "Relation",
+        "label": "UsedFor"
+      },
+      "sources": [
+        {
+          "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/nullotheist/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/omcs1_possibly_free_text",
+          "contributor": "/s/contributor/omcs/nullotheist"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/jfarnell/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/template",
+          "contributor": "/s/contributor/omcs/jfarnell"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/jfarnell/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/jfarnell"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/leighman/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/leighman"
+        }
+      ],
+      "start": {
+        "@id": "/c/en/chair",
+        "@type": "Node",
+        "label": "a chair",
+        "language": "en",
+        "term": "/c/en/chair"
+      },
+      "surfaceText": "[[a chair]] is used for [[resting]]",
+      "weight": 3.4641016151377544
+    },
+    {
+      "@id": "/a/[/r/AtLocation/,/c/en/chair/,/c/en/porch/]",
+      "@type": "Edge",
+      "dataset": "/d/conceptnet/4/en",
+      "end": {
+        "@id": "/c/en/porch",
+        "@type": "Node",
+        "label": "the porch",
+        "language": "en",
+        "term": "/c/en/porch"
+      },
+      "license": "cc:by/4.0",
+      "rel": {
+        "@id": "/r/AtLocation",
+        "@type": "Relation",
+        "label": "AtLocation"
+      },
+      "sources": [
+        {
+          "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bobdhaliwal/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/omcs1_possibly_free_text",
+          "contributor": "/s/contributor/omcs/bobdhaliwal"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/thendar/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/omcs1_possibly_free_text",
+          "contributor": "/s/contributor/omcs/thendar"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/fable/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/fable"
+        },
+        {
+          "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/thendar/]",
+          "@type": "Source",
+          "activity": "/s/activity/omcs/vote",
+          "contributor": "/s/contributor/omcs/thendar"
+        }
+      ],
+      "start": {
+        "@id": "/c/en/chair",
+        "@type": "Node",
+        "label": "a chair",
+        "language": "en",
+        "term": "/c/en/chair"
+      },
+      "surfaceText": "*Something you find on [[the porch]] is [[a chair]]",
+      "weight": 3.4641016151377544
+    },
+    {
+      "@id": "/a/[/r/RelatedTo/,/c/en/chair/,/c/en/sitting_furniture/]",
+      "@type": "Edge",
+      "dataset": "/d/verbosity",
+      "end": {
+        "@id": "/c/en/sitting_furniture",
+        "@type": "Node",
+        "label": "sitting furniture",
+        "language": "en",
+        "term": "/c/en/sitting_furniture"
+      },
+      "license": "cc:by/4.0",
+      "rel": {
+        "@id": "/r/RelatedTo",
+        "@type": "Relation",
+        "label": "RelatedTo"
+      },
+      "sources": [
+        {
+          "@id": "/s/resource/verbosity",
+          "@type": "Source",
+          "contributor": "/s/resource/verbosity"
+        }
+      ],
+      "start": {
+        "@id": "/c/en/chair",
+        "@type": "Node",
+        "label": "chair",
+        "language": "en",
+        "term": "/c/en/chair"
+      },
+      "surfaceText": "[[chair]] is related to [[sitting furniture]]",
+      "weight": 3.240987503832743
+    },
+    {
+      "@id": "/a/[/r/RelatedTo/,/c/en/table/,/c/en/chair/]",
+      "@type": "Edge",
+      "dataset": "/d/verbosity",
+      "end": {
+        "@id": "/c/en/chair",
+        "@type": "Node",
+        "label": "chair",
+        "language": "en",
+        "term": "/c/en/chair"
+      },
+      "license": "cc:by/4.0",
+      "rel": {
+        "@id": "/r/RelatedTo",
+        "@type": "Relation",
+        "label": "RelatedTo"
+      },
+      "sources": [
+        {
+          "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]",
+          "@type": "Source",
+          "contributor": "/s/resource/verbosity",
+          "process": "/s/process/split_words"
+        },
+        {
+          "@id": "/s/resource/verbosity",
+          "@type": "Source",
+          "contributor": "/s/resource/verbosity"
+        }
+      ],
+      "start": {
+        "@id": "/c/en/table",
+        "@type": "Node",
+        "label": "table",
+        "language": "en",
+        "term": "/c/en/table"
+      },
+      "surfaceText": "[[table]] is related to [[chair]]",
+      "weight": 3.2018744510052235
+    },
+    {
+      "@id": "/a/[/r/RelatedTo/,/c/en/chair/,/c/en/four/]",
+      "@type": "Edge",
+      "dataset": "/d/verbosity",
+      "end": {
+        "@id": "/c/en/four",
+        "@type": "Node",
+        "label": "four",
+        "language": "en",
+        "term": "/c/en/four"
+      },
+      "license": "cc:by/4.0",
+      "rel": {
+        "@id": "/r/RelatedTo",
+        "@type": "Relation",
+        "label": "RelatedTo"
+      },
+      "sources": [
+        {
+          "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]",
+          "@type": "Source",
+          "contributor": "/s/resource/verbosity",
+          "process": "/s/process/split_words"
+        },
+        {
+          "@id": "/s/resource/verbosity",
+          "@type": "Source",
+          "contributor": "/s/resource/verbosity"
+        }
+      ],
+      "start": {
+        "@id": "/c/en/chair",
+        "@type": "Node",
+        "label": "chair",
+        "language": "en",
+        "term": "/c/en/chair"
+      },
+      "surfaceText": "[[chair]] is related to [[four]]",
+      "weight": 3.160379724020517
+    },
+    {
+      "@id": "/a/[/r/RelatedTo/,/c/en/chair/,/c/en/seating/]",
+      "@type": "Edge",
+      "dataset": "/d/verbosity",
+      "end": {
+        "@id": "/c/en/seating",
+        "@type": "Node",
+        "label": "seating",
+        "language": "en",
+        "term": "/c/en/seating"
+      },
+      "license": "cc:by/4.0",
+      "rel": {
+        "@id": "/r/RelatedTo",
+        "@type": "Relation",
+        "label": "RelatedTo"
+      },
+      "sources": [
+        {
+          "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]",
+          "@type": "Source",
+          "contributor": "/s/resource/verbosity",
+          "process": "/s/process/split_words"
+        },
+        {
+          "@id": "/s/resource/verbosity",
+          "@type": "Source",
+          "contributor": "/s/resource/verbosity"
+        }
+      ],
+      "start": {
+        "@id": "/c/en/chair",
+        "@type": "Node",
+        "label": "chair",
+        "language": "en",
+        "term": "/c/en/chair"
+      },
+      "surfaceText": "[[chair]] is related to [[seating]]",
+      "weight": 2.873325599370876
+    },
+    {
+      "@id": "/a/[/r/RelatedTo/,/c/en/desk/,/c/en/chair/]",
+      "@type": "Edge",
+      "dataset": "/d/verbosity",
+      "end": {
+        "@id": "/c/en/chair",
+        "@type": "Node",
+        "label": "chair",
+        "language": "en",
+        "term": "/c/en/chair"
+      },
+      "license": "cc:by/4.0",
+      "rel": {
+        "@id": "/r/RelatedTo",
+        "@type": "Relation",
+        "label": "RelatedTo"
+      },
+      "sources": [
+        {
+          "@id": "/and/[/s/process/split_words/,/s/resource/verbosity/]",
+          "@type": "Source",
+          "contributor": "/s/resource/verbosity",
+          "process": "/s/process/split_words"
+        },
+        {
+          "@id": "/s/resource/verbosity",
+          "@type": "Source",
+          "contributor": "/s/resource/verbosity"
+        }
+      ],
+      "start": {
+        "@id": "/c/en/desk",
+        "@type": "Node",
+        "label": "desk",
+        "language": "en",
+        "term": "/c/en/desk"
+      },
+      "surfaceText": "[[desk]] is related to [[chair]]",
+      "weight": 2.846752535785294
+    }
+  ],
+  "version": "5.8.1",
+  "view": {
+    "@id": "/c/en/chair?offset=0&limit=20",
+    "@type": "PartialCollectionView",
+    "comment": "There are more results. Follow the 'nextPage' link for more.",
+    "firstPage": "/c/en/chair?offset=0&limit=20",
+    "nextPage": "/c/en/chair?offset=20&limit=20",
+    "paginatedProperty": "edges"
+  }
+}
